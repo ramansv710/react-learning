@@ -1,10 +1,11 @@
+import Youtube from "./Youtube";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>React App</p>
-      </header>
-    </div>
+    <>
+      <p>React App</p>
+      <Youtube />
+    </>
   );
 }
 
